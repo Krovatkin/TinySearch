@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="512dp"
+    android:height="512dp"
+    android:viewportWidth="512"
+    android:viewportHeight="512">
+
+    <!-- Background (optional, remove if you want transparent) -->
+    <path
+        android:fillColor="#C0C0C0"
+        android:pathData="M0,0h512v512h-512z"/>
+
+    <!-- Outer ring (base) - bottom part -->
+    <path
+        android:fillColor="#3D5A6B"
+        android:pathData="M256,456 A200,200 0 1,1 256,56 A200,200 0 0,1 256,456 Z M256,416 A160,160 0 1,0 256,96 A160,160 0 0,0 256,416 Z"/>
+
+    <!-- Outer ring outline -->
+    <path
+        android:strokeColor="#B8C5CC"
+        android:strokeWidth="6"
+        android:fillColor="#00000000"
+        android:pathData="M256,56 A200,200 0 1,1 256,456 A200,200 0 1,1 256,56 Z"/>
+
+    <path
+        android:strokeColor="#B8C5CC"
+        android:strokeWidth="6"
+        android:fillColor="#00000000"
+        android:pathData="M256,96 A160,160 0 1,1 256,416 A160,160 0 1,1 256,96 Z"/>
+
+    <!-- Inner circle (specimen tray) -->
+    <path
+        android:fillColor="#3D5A6B"
+        android:pathData="M256,336 A80,80 0 1,1 256,176 A80,80 0 0,1 256,336 Z"/>
+
+    <!-- Inner circle outline -->
+    <path
+        android:strokeColor="#B8C5CC"
+        android:strokeWidth="5"
+        android:fillColor="#00000000"
+        android:pathData="M256,176 A80,80 0 1,1 256,336 A80,80 0 1,1 256,176 Z"/>
+
+    <!-- Microscope body tube (angled rectangle) -->
+    <path
+        android:fillColor="#3D5A6B"
+        android:pathData="M340,110 L365,85 L310,30 L240,100 L265,125 L290,100 Z"/>
+
+    <!-- Microscope body outline -->
+    <path
+        android:strokeColor="#B8C5CC"
+        android:strokeWidth="5"
+        android:fillColor="#00000000"
+        android:pathData="M340,110 L365,85 L310,30 L240,100 L265,125 L290,100 Z"/>
+
+    <!-- Eyepiece (circle with hole) -->
+    <path
+        android:fillColor="#3D5A6B"
+        android:pathData="M337,73 A35,35 0 1,1 337,143 A35,35 0 0,1 337,73 Z M337,93 A15,15 0 1,0 337,123 A15,15 0 0,0 337,93 Z"/>
+
+    <!-- Eyepiece outline -->
+    <path
+        android:strokeColor="#B8C5CC"
+        android:strokeWidth="5"
+        android:fillColor="#00000000"
+        android:pathData="M337,73 A35,35 0 1,1 337,143 A35,35 0 1,1 337,73 Z"/>
+
+    <path
+        android:strokeColor="#B8C5CC"
+        android:strokeWidth="4"
+        android:fillColor="#00000000"
+        android:pathData="M337,93 A15,15 0 1,1 337,123 A15,15 0 1,1 337,93 Z"/>
+
+    <!-- Google "G" logo - BIGGER AND MORE ACCURATE -->
+    <!-- The G is centered at (256, 256) with radius 50 -->
+
+    <!-- Red quarter (top-right) -->
+    <path
+        android:fillColor="#EA4335"
+        android:pathData="M256,206 L256,226 A30,30 0 0,1 286,256 L306,256 A50,50 0 0,0 256,206 Z"/>
+
+    <!-- Yellow quarter (top-left) -->
+    <path
+        android:fillColor="#FBBC04"
+        android:pathData="M256,206 A50,50 0 0,0 206,256 L226,256 A30,30 0 0,1 256,226 Z"/>
+
+    <!-- Green quarter (bottom-left) -->
+    <path
+        android:fillColor="#34A853"
+        android:pathData="M206,256 A50,50 0 0,0 256,306 L256,286 A30,30 0 0,1 226,256 Z"/>
+
+    <!-- Blue quarter (bottom-right, partial) + horizontal bar -->
+    <path
+        android:fillColor="#4285F4"
+        android:pathData="M256,306 A50,50 0 0,0 306,256 L286,256 A30,30 0 0,1 256,286 Z"/>
+
+    <!-- Blue horizontal bar extending right -->
+    <path
+        android:fillColor="#4285F4"
+        android:pathData="M256,246 L306,246 L306,266 L276,266 L276,256 L256,256 Z"/>
+
+</vector>
